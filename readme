@@ -1,0 +1,6 @@
+hi! I have two issues
+
+
+first I cant figure out how to fetch a json file anymore through js, i have commented out my attempt so that you can have look in my js
+ so therefore I copy pastes the json file into my js file and that worked... 
+ before I created the pop up window all data was shown but with the pop up window only the same first movie "pulp fiction"is shown to me and not the other movies when clicking on other actors....

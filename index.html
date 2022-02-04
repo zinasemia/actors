@@ -10,25 +10,22 @@
 </head>
 
 <body>
+    <template id="mytemplate">
+        <section>
+            <div class="button" <button onclick="showmovie()">
+                <h2 class="fullname">Title</h2>
+                </button>
+            </div> 
+            <div class="pop-up">
+                <div class="hidden">
+                    <h3 id="movie">Movie</h3>
+                </div>
+            </div>
+
+        </section>
+    </template>
     <main>
-
-
-        <template id="mytemplate">
-            <section>
-                <div class="box">
-                    <a class="button" href="#popup1">
-                        <h2 class="fullname">Title</h2>
-                    </a>
-                </div>
-               <div id="popup1" class="overlay">
-                    <div class="popup">
-                        <h3 class="movie">Movie</h3>
-                        <a class="close" href="#">&times;</a>
-
-                    </div>
-                </div>
-            </section>
-        </template>
+        <section class="recieving"></section>
     </main>
 </body>
 
